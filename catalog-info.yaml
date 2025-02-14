@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-test-service-2
+  description: This is a test service for IR backstage project...
+  tags:
+    - nodejs
+    - backend
+    - testservice
+spec:
+  type: service
+  lifecycle: production
+  owner: backend-team
